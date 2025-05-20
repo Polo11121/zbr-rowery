@@ -1,5 +1,8 @@
-import type { Metadata } from "next";
+import { ReactNode } from "react";
 import { Poppins } from "next/font/google";
+import { Header } from "@/components/header/header";
+import { Footer } from "@/components/footer";
+import type { Metadata } from "next";
 import "./globals.css";
 
 const getPoppins = Poppins({
@@ -12,16 +15,31 @@ export const metadata: Metadata = {
   title: "ZBR Rowery - Serwis rowerowy",
   description:
     "Serwis rowerowy ZBR Rowery w Ostródzie. Naprawa rowerów, serwis, doradztwo, sprzedaż części i akcesoriów rowerowych.",
+  keywords: [
+    "serwis rowerowy Ostróda",
+    "naprawa rowerów",
+    "ZBR Rowery",
+    "rowerowe spa",
+    "części rowerowe",
+    "zabezpieczenie roweru folią",
+    "konserwacja roweru",
+    "serwis amortyzatorów",
+    "rowery Ostróda",
+  ],
 };
 
-export default function RootLayout({
+const RootLayout = ({
   children,
 }: Readonly<{
-  children: React.ReactNode;
-}>) {
-  return (
-    <html lang="en">
-      <body className={`${getPoppins.variable} antialiased`}>{children}</body>
-    </html>
-  );
-}
+  children: ReactNode;
+}>) => (
+  <html lang="pl">
+    <body className={`${getPoppins.variable} antialiased`}>
+      <Header />
+      {children}
+      <Footer />
+    </body>
+  </html>
+);
+
+export default RootLayout;
