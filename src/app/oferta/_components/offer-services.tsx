@@ -2,6 +2,7 @@
 
 import { ServiceCard } from "@/app/oferta/_components/service-card";
 import { SpaPackageCard } from "@/app/oferta/_components/spa-package-card";
+import Link from "next/link";
 import { useState } from "react";
 
 const services = [
@@ -95,13 +96,16 @@ const services = [
           <h3 className="text-xl font-semibold mb-4">
             Umów się na serwis już dziś
           </h3>
-          <p className="mb-4">
+          <p className="mb-7">
             Nie czekaj, aż drobne problemy przerodzą się w poważne usterki!
             Skontaktuj się z nami i zarezerwuj termin serwisu rowerowego.
           </p>
-          <button className="px-6 py-3 bg-zbr text-white rounded-md hover:bg-zbr-dark transition-colors font-medium focus:outline-none focus:ring-2 focus:ring-zbr focus:ring-opacity-50">
-            Zarezerwuj termin
-          </button>
+          <Link
+            href="/kontakt"
+            className="px-6 py-3 bg-zbr text-white rounded-md hover:bg-zbr-dark transition-colors font-medium focus:outline-none focus:ring-2 focus:ring-zbr focus:ring-opacity-50"
+          >
+            Skontaktuj się z nami
+          </Link>
         </div>
       </div>
     ),
@@ -255,14 +259,17 @@ const services = [
           <h3 className="text-xl font-semibold mb-4">
             Umów swój rower na SPA już dziś!
           </h3>
-          <p className="mb-4">
+          <p className="mb-7">
             Pozwól nam zadbać o Twój jednoślad tak, jak na to zasługuje. Dzięki
             naszej usłudze Rowerowego SPA Twój rower będzie gotowy na każdą
             trasę – lśniący, czysty i w pełni sprawny.
           </p>
-          <button className="px-6 py-3 bg-zbr text-white rounded-md hover:bg-zbr-dark transition-colors font-medium focus:outline-none focus:ring-2 focus:ring-zbr focus:ring-opacity-50">
-            Zarezerwuj termin
-          </button>
+          <Link
+            href="/kontakt"
+            className="px-6 py-3 bg-zbr text-white rounded-md hover:bg-zbr-dark transition-colors font-medium focus:outline-none focus:ring-2 focus:ring-zbr focus:ring-opacity-50"
+          >
+            Skontaktuj się z nami
+          </Link>
         </div>
       </div>
     ),

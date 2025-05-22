@@ -18,6 +18,7 @@ import {
   frameServices,
 } from "@/constants/pricing";
 import { Metadata } from "next";
+import { Contact } from "@/components/contact";
 
 export const metadata: Metadata = {
   title: "Cennik usług rowerowych | ZBR Rowery",
@@ -26,7 +27,7 @@ export const metadata: Metadata = {
 };
 
 const PricingPage = () => (
-  <main className="container mx-auto py-10 px-4" role="main">
+  <main className="container mx-auto py-10 px-4 md:px-0" role="main">
     <h1 className="text-3xl font-bold mb-8 text-center text-zbr">
       CENNIK 2025
     </h1>
@@ -104,6 +105,7 @@ const PricingPage = () => (
       </div>
     </section>
     <AdditionalInfoSection />
+    <Contact className="mt-12 md:mt-24" />
   </main>
 );
 

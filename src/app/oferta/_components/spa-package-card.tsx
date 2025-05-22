@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 type SpaPackageProps = {
   title: string;
   features: string[];
@@ -16,10 +18,13 @@ export const SpaPackageCard = ({ title, features }: SpaPackageProps) => (
         </li>
       ))}
     </ul>
-    <div className="mt-6 text-center">
-      <button className="px-4 py-2 bg-zbr text-white rounded-md hover:bg-zbr-dark transition-colors focus:outline-none focus:ring-2 focus:ring-zbr focus:ring-opacity-50">
-        Wybierz pakiet
-      </button>
+    <div className="mt-8 text-center">
+      <Link
+        href="/cennik"
+        className="px-4 py-2 bg-zbr text-white rounded-md hover:bg-zbr-dark transition-colors focus:outline-none focus:ring-2 focus:ring-zbr focus:ring-opacity-50"
+      >
+        Sprawdź cenę
+      </Link>
     </div>
   </div>
 );

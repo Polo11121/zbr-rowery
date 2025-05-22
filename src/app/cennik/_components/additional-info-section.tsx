@@ -1,6 +1,6 @@
 export const AdditionalInfoSection = () => (
   <section
-    className="bg-gray-100 rounded-lg p-6 shadow-md mb-8"
+    className="bg-gray-100 rounded-lg p-6 shadow-md"
     aria-labelledby="additional-info-heading"
   >
     <h2

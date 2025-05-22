@@ -1,4 +1,5 @@
 import { FAQList } from "@/app/faq/_components/FAQList";
+import { Contact } from "@/components/contact";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -8,11 +9,12 @@ export const metadata: Metadata = {
 };
 
 const FAQPage = () => (
-  <main className="container mx-auto py-10" role="main">
+  <main className="container mx-auto py-10 md:px-0 px-4" role="main">
     <h1 className="text-3xl font-bold mb-6 text-center text-zbr">
       FAQ – Najczęściej zadawane pytania
     </h1>
     <FAQList />
+    <Contact className="mt-12 md:mt-24" />
   </main>
 );
 

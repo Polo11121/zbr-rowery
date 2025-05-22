@@ -34,7 +34,9 @@ const RootLayout = ({
   children: ReactNode;
 }>) => (
   <html lang="pl">
-    <body className={`${getPoppins.variable} antialiased`}>
+    <body
+      className={`${getPoppins.variable} antialiased flex flex-col min-h-screen`}
+    >
       <Header />
       {children}
       <Footer />
