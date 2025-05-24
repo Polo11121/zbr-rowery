@@ -17,11 +17,10 @@ export const Gallery = () => (
         Galeria
       </h2>
       <p className="text-lg text-white text-center mb-8 md:mb-0">
-        Twój rower zasługuje na więcej niż tylko podstawowy serwis! Nasze
-        Rowerowe SPA to wyjątkowa usługa, która sprawi, że Twój rower nie tylko
-        odzyska pełną sprawność, ale także będzie wyglądał jak nowy. Idealne
-        rozwiązanie dla tych, którzy chcą zadbać o każdy detal swojego roweru –
-        zarówno pod kątem estetyki, jak i funkcjonalności.
+        Zajrzyj do naszej galerii i zobacz efekty naszej pracy! Każde zdjęcie to
+        dowód na to, jak bardzo dbamy o każdy detal. Od dokładnego czyszczenia
+        po pełną regenerację – Twojemu rowerowi też możemy przywrócić dawny
+        blask!
       </p>
     </div>
     <ImageGallery
