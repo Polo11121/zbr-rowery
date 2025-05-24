@@ -29,7 +29,7 @@ export const OfferInfo = () => (
         alt="Zdjęcie siedziby serwisu ZBR Rowery przy ul. Czarnieckiego 15A/II w Ostródzie"
         width={450}
         height={675}
-        loading="lazy"
+        priority
         className="md:rounded-lg w-full h-auto object-cover"
       />
     </div>

@@ -35,6 +35,7 @@ export const Opinions = () => (
                   alt={`Opinia ${index + 1}`}
                   fill
                   className="object-contain"
+                  loading="lazy"
                 />
               </div>
             </CarouselItem>
