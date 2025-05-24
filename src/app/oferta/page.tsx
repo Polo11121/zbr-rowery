@@ -6,9 +6,9 @@ import { Main } from "@/components/main";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Oferta serwisowa | ZBR Rowery",
+  title: "Oferta - Usługi serwisowe | ZBR Rowery",
   description:
-    "Poznaj ofertę serwisową ZBR Rowery. Oferujemy profesjonalne usługi dostosowane do każdego rodzaju roweru i stylu jazdy – od rekreacyjnych po sportowe.",
+    "Poznaj ofertę serwisową ZBR Rowery na rok 2025. Oferujemy profesjonalne usługi dostosowane do każdego rodzaju roweru i stylu jazdy – od rekreacyjnych po sportowe.",
 };
 
 const OfferPage = () => (
