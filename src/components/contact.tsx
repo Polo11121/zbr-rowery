@@ -3,14 +3,14 @@ import { ContactForm } from "@/components/contact-form";
 import { cn } from "@/lib/utils";
 
 type ContactProps = {
-  className?: string;
+  noMargin?: boolean;
 };
 
-export const Contact = ({ className }: ContactProps) => (
+export const Contact = ({ noMargin }: ContactProps) => (
   <section
     className={cn(
-      "flex container mx-auto md:flex-row flex-col gap-12 items-center",
-      className
+      "flex container mx-auto md:flex-row flex-col gap-12 items-center mt-12 md:mt-24",
+      noMargin && "mt-0"
     )}
     aria-labelledby="contact-heading"
   >

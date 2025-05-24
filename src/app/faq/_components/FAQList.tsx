@@ -24,7 +24,6 @@ export const FAQList = () => (
           </span>
           {group.title}
         </h2>
-
         <Accordion type="single" collapsible className="w-full">
           {group.items.map((item, itemIndex) => (
             <AccordionItem

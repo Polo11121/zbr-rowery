@@ -1,4 +1,6 @@
 import { Contact } from "@/components/contact";
+import { Heading } from "@/components/heading";
+import { Main } from "@/components/main";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -8,10 +10,10 @@ export const metadata: Metadata = {
 };
 
 const ContactPage = () => (
-  <main className="container mx-auto py-10 flex-1 md:px-4" role="main">
-    <h1 className="text-3xl font-bold mb-8 text-center text-zbr">Kontakt</h1>
-    <Contact />
-  </main>
+  <Main>
+    <Heading>Kontakt</Heading>
+    <Contact noMargin />
+  </Main>
 );
 
 export default ContactPage;

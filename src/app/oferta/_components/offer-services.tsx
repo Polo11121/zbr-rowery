@@ -1,9 +1,9 @@
 "use client";
 
+import { useState } from "react";
 import { ServiceCard } from "@/app/oferta/_components/service-card";
 import { SpaPackageCard } from "@/app/oferta/_components/spa-package-card";
 import Link from "next/link";
-import { useState } from "react";
 
 const services = [
   {
@@ -365,9 +365,12 @@ const services = [
             Zaufaj naszemu doświadczeniu i wybierz usługę oklejania folią PPF,
             która połączy funkcjonalność z estetyką.
           </p>
-          <button className="px-6 py-3 bg-zbr text-white rounded-md hover:bg-zbr-dark transition-colors font-medium focus:outline-none focus:ring-2 focus:ring-zbr focus:ring-opacity-50">
+          <Link
+            href="/kontakt"
+            className="px-6 py-3 bg-zbr text-white rounded-md hover:bg-zbr-dark transition-colors font-medium focus:outline-none focus:ring-2 focus:ring-zbr focus:ring-opacity-50"
+          >
             Skontaktuj się z nami
-          </button>
+          </Link>
         </div>
       </div>
     ),
