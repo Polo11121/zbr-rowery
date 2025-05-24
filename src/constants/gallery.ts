@@ -1,0 +1,98 @@
+export const images = [
+  {
+    original: "/gallery-image-1.webp",
+    thumbnail: "/gallery-image-1.webp",
+    originalAlt: "Zdjęcie z galerii 1",
+    thumbnailAlt: "Miniaturka zdjęcia z galerii 1",
+  },
+  {
+    original: "/gallery-image-2.webp",
+    thumbnail: "/gallery-image-2.webp",
+    originalAlt: "Zdjęcie z galerii 2",
+    thumbnailAlt: "Miniaturka zdjęcia z galerii 2",
+  },
+  {
+    original: "/gallery-image-3.webp",
+    thumbnail: "/gallery-image-3.webp",
+    originalAlt: "Zdjęcie z galerii 3",
+    thumbnailAlt: "Miniaturka zdjęcia z galerii 3",
+  },
+  {
+    original: "/gallery-image-4.webp",
+    thumbnail: "/gallery-image-4.webp",
+    originalAlt: "Zdjęcie z galerii 4",
+    thumbnailAlt: "Miniaturka zdjęcia z galerii 4",
+  },
+  {
+    original: "/gallery-image-5.webp",
+    thumbnail: "/gallery-image-5.webp",
+    originalAlt: "Zdjęcie z galerii 5",
+    thumbnailAlt: "Miniaturka zdjęcia z galerii 5",
+  },
+  {
+    original: "/gallery-image-6.webp",
+    thumbnail: "/gallery-image-6.webp",
+    originalAlt: "Zdjęcie z galerii 6",
+    thumbnailAlt: "Miniaturka zdjęcia z galerii 6",
+  },
+  {
+    original: "/gallery-image-7.webp",
+    thumbnail: "/gallery-image-7.webp",
+    originalAlt: "Zdjęcie z galerii 7",
+    thumbnailAlt: "Miniaturka zdjęcia z galerii 7",
+  },
+  {
+    original: "/gallery-image-8.webp",
+    thumbnail: "/gallery-image-8.webp",
+    originalAlt: "Zdjęcie z galerii 8",
+    thumbnailAlt: "Miniaturka zdjęcia z galerii 8",
+  },
+  {
+    original: "/gallery-image-9.webp",
+    thumbnail: "/gallery-image-9.webp",
+    originalAlt: "Zdjęcie z galerii 9",
+    thumbnailAlt: "Miniaturka zdjęcia z galerii 9",
+  },
+  {
+    original: "/gallery-image-10.webp",
+    thumbnail: "/gallery-image-10.webp",
+    originalAlt: "Zdjęcie z galerii 10",
+    thumbnailAlt: "Miniaturka zdjęcia z galerii 10",
+  },
+  {
+    original: "/gallery-image-5.webp",
+    thumbnail: "/gallery-image-5.webp",
+    originalAlt: "Zdjęcie z galerii 5",
+    thumbnailAlt: "Miniaturka zdjęcia z galerii 5",
+  },
+  {
+    original: "/gallery-image-6.webp",
+    thumbnail: "/gallery-image-6.webp",
+    originalAlt: "Zdjęcie z galerii 6",
+    thumbnailAlt: "Miniaturka zdjęcia z galerii 6",
+  },
+  {
+    original: "/gallery-image-7.webp",
+    thumbnail: "/gallery-image-7.webp",
+    originalAlt: "Zdjęcie z galerii 7",
+    thumbnailAlt: "Miniaturka zdjęcia z galerii 7",
+  },
+  {
+    original: "/gallery-image-8.webp",
+    thumbnail: "/gallery-image-8.webp",
+    originalAlt: "Zdjęcie z galerii 8",
+    thumbnailAlt: "Miniaturka zdjęcia z galerii 8",
+  },
+  {
+    original: "/gallery-image-9.webp",
+    thumbnail: "/gallery-image-9.webp",
+    originalAlt: "Zdjęcie z galerii 9",
+    thumbnailAlt: "Miniaturka zdjęcia z galerii 9",
+  },
+  {
+    original: "/gallery-image-10.webp",
+    thumbnail: "/gallery-image-10.webp",
+    originalAlt: "Zdjęcie z galerii 10",
+    thumbnailAlt: "Miniaturka zdjęcia z galerii 10",
+  },
+];

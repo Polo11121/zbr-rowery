@@ -51,7 +51,6 @@ const services = [
             potrzebujesz drobnej naprawy, czy kompleksowego remontu roweru.
           </li>
         </ul>
-
         <h3 className="text-xl font-semibold mt-8">
           Dlaczego warto nam zaufać?
         </h3>
@@ -78,7 +77,6 @@ const services = [
             Twoich potrzeb.
           </li>
         </ul>
-
         <div className="bg-gray-50 p-6 rounded-lg mt-8">
           <h3 className="text-xl font-semibold mb-4">
             Serwis rowerów z odbiorem i dowozem – wygoda dla Ciebie
@@ -91,7 +89,6 @@ const services = [
             idealnym stanie, gotowego do jazdy.
           </p>
         </div>
-
         <div className="text-center mt-8">
           <h3 className="text-xl font-semibold mb-4">
             Umów się na serwis już dziś
@@ -124,11 +121,9 @@ const services = [
           Idealne rozwiązanie dla tych, którzy chcą zadbać o każdy detal swojego
           roweru – zarówno pod kątem estetyki, jak i funkcjonalności.
         </p>
-
         <h3 className="text-xl font-semibold mt-8 mb-6">
           Wybierz pakiet dla siebie
         </h3>
-
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <SpaPackageCard
             title="Pakiet Silver"
@@ -163,7 +158,6 @@ const services = [
             ]}
           />
         </div>
-
         <h3 className="text-xl font-semibold mt-8">Opis usług</h3>
         <ul className="space-y-4">
           <li>
@@ -227,7 +221,6 @@ const services = [
             </p>
           </li>
         </ul>
-
         <h3 className="text-xl font-semibold mt-8">
           Dlaczego warto wybrać Rowerowe SPA?
         </h3>
@@ -254,7 +247,6 @@ const services = [
             rozpoczęciem sezonu lub przed sprzedażą.
           </li>
         </ul>
-
         <div className="text-center mt-8">
           <h3 className="text-xl font-semibold mb-4">
             Umów swój rower na SPA już dziś!
@@ -287,7 +279,6 @@ const services = [
           rozwiązanie, które zabezpieczy Twój sprzęt przed uszkodzeniami i zadba
           o jego doskonały wygląd na dłużej.
         </p>
-
         <h3 className="text-xl font-semibold mt-8">
           Dlaczego warto wybrać folię PPF?
         </h3>
@@ -321,7 +312,6 @@ const services = [
             zachować oryginalny design roweru.
           </li>
         </ul>
-
         <h3 className="text-xl font-semibold mt-8">
           Proces oklejania – precyzja i profesjonalizm
         </h3>
@@ -336,7 +326,6 @@ const services = [
           ochronę całej ramy lub tylko najbardziej narażonych na uszkodzenia
           części, takich jak dolna rura, widelec czy tylne trójkąty.
         </p>
-
         <h3 className="text-xl font-semibold mt-8">
           Dla kogo jest oklejanie rowerów folią PPF?
         </h3>
@@ -355,7 +344,6 @@ const services = [
             odsprzedaży.
           </li>
         </ul>
-
         <div className="text-center mt-8">
           <h3 className="text-xl font-semibold mb-4">
             Zainwestuj w ochronę swojego roweru

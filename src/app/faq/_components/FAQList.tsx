@@ -4,11 +4,11 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { FAQ_GROUPS } from "@/constants/faq";
+import { faqGroups } from "@/constants/faq";
 
 export const FAQList = () => (
   <div className="flex flex-col gap-10">
-    {FAQ_GROUPS.map((group, groupIndex) => (
+    {faqGroups.map((group, groupIndex) => (
       <section
         key={groupIndex}
         role="region"

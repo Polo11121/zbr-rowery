@@ -16,11 +16,7 @@ const PrivacyPolicyPage = () => (
       Serwisu rowerowego{" "}
       <strong className="text-zbr font-semibold">zbr-rowery.pl</strong>
     </h2>
-    <section
-      className="container mx-auto px-5 md:px-0"
-      aria-labelledby="privacy-policy-heading"
-      role="region"
-    >
+    <section className="container mx-auto px-5 md:px-0" role="region">
       <article className="flex flex-col gap-6 text-[15px] md:text-[16px] leading-relaxed">
         <h3 className="text-[22px] md:text-[26px] font-bold text-zbr">
           1. Definicje
@@ -35,7 +31,7 @@ const PrivacyPolicyPage = () => (
         <p>
           <strong>Serwis:</strong> strona internetowa dostępna pod adresem{" "}
           <Link
-            href="https://zbr-rowery.pl"
+            href="/"
             className="text-zbr underline font-bold"
             target="_blank"
             rel="noopener noreferrer"

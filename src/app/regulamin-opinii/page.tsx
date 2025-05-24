@@ -14,11 +14,7 @@ const ReviewPolicyPage = () => (
       Sprawdź, jakie zasady obowiązują przy zamieszczaniu opinii na stronie{" "}
       <strong className="text-zbr font-semibold">zbr-rowery.pl</strong>
     </h2>
-    <section
-      className="container mx-auto px-5 md:px-0"
-      aria-labelledby="review-policy-heading"
-      role="region"
-    >
+    <section className="container mx-auto px-5 md:px-0" role="region">
       <article className="flex flex-col gap-6 text-[15px] md:text-[16px] leading-relaxed">
         <h2 className="text-[22px] md:text-[26px] font-bold text-zbr">
           1. Postanowienia ogólne
@@ -26,7 +22,7 @@ const ReviewPolicyPage = () => (
         <p>
           Regulamin określa zasady zamieszczania opinii na stronie{" "}
           <Link
-            href="zbr-rowery.pl"
+            href="/"
             className="text-zbr underline font-bold"
             target="_blank"
             rel="noopener noreferrer nofollow"

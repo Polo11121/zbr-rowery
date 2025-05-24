@@ -1,7 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { HEADER_LINKS } from "@/constants/header";
+import { headerLinks } from "@/constants/header";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
@@ -12,7 +12,7 @@ export const HeaderDesktopMenu = () => {
   return (
     <nav className="hidden md:block">
       <ul className="flex items-center gap-2 group">
-        {HEADER_LINKS.map(({ path, label }) => {
+        {headerLinks.map(({ path, label }) => {
           const isActive = path === pathname;
 
           return (

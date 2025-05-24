@@ -1,4 +1,4 @@
-export const FAQ_GROUPS = [
+export const faqGroups = [
   {
     icon: "🛠️",
     title: "Usługi serwisowe i oferta",

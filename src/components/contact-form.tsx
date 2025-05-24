@@ -93,7 +93,7 @@ export const ContactForm = () => {
                 href="/polityka-prywatnosci"
                 className="underline text-zbr font-bold"
                 target="_blank"
-                rel="noopener noreferrer nofollow"
+                rel="noopener noreferrer"
                 aria-label="Przejdź do Polityki Prywatności"
               >
                 Polityce Prywatności

@@ -6,7 +6,7 @@ type SpaPackageProps = {
 };
 
 export const SpaPackageCard = ({ title, features }: SpaPackageProps) => (
-  <div className="bg-white rounded-lg shadow-md p-6 mb-6 hover:shadow-lg transition-all">
+  <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-all">
     <h4 className="text-xl font-semibold mb-4 text-center">{title}</h4>
     <ul className="space-y-2">
       {features.map((feature, index) => (

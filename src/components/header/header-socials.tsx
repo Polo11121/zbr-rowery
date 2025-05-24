@@ -16,7 +16,7 @@ export const HeaderSocials = () => (
       <a
         href="https://maps.app.goo.gl/YebyG6gvRT5onTd28"
         target="_blank"
-        rel="noopener noreferrer nofollow"
+        rel="noopener noreferrer"
         className="flex items-center gap-2 hover:text-zbr transition-colors duration-300"
         title="Zobacz lokalizację firmy na mapie"
       >
@@ -26,7 +26,7 @@ export const HeaderSocials = () => (
       <a
         href="https://www.facebook.com/61561204940324"
         target="_blank"
-        rel="noopener noreferrer nofollow"
+        rel="noopener noreferrer"
         className="flex items-center gap-2 hover:text-zbr transition-colors duration-300"
         title="Facebook ZBR Rowery"
       >
@@ -36,7 +36,7 @@ export const HeaderSocials = () => (
       <a
         href="https://www.instagram.com/zbr.rowery?igsh=eDB6NTZpOWJ0OWFw"
         target="_blank"
-        rel="noopener noreferrer nofollow"
+        rel="noopener noreferrer"
         className="flex items-center gap-2 hover:text-zbr transition-colors duration-300"
         title="Instagram ZBR Rowery"
       >
@@ -46,7 +46,7 @@ export const HeaderSocials = () => (
       <a
         href="https://www.tiktok.com/@zbr.rowery.serwis?_t=ZN-8uBzDYNWukY&_r=1"
         target="_blank"
-        rel="noopener noreferrer nofollow"
+        rel="noopener noreferrer"
         className="flex items-center gap-2 hover:text-zbr transition-colors duration-300"
         title="TikTok ZBR Rowery"
       >

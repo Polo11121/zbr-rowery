@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { Socials } from "@/components/socials";
 import { usePathname } from "next/navigation";
-import { HEADER_LINKS } from "@/constants/header";
+import { headerLinks } from "@/constants/header";
 import { Menu } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -91,7 +91,7 @@ export const HeaderMobileMenu = () => {
               Nawigacja mobilna
             </h2>
             <ul className="text-center space-y-4 text-xl font-semibold group">
-              {HEADER_LINKS.map(({ label, path }) => {
+              {headerLinks.map(({ label, path }) => {
                 const isActive = path === pathname;
 
                 return (

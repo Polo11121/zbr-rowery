@@ -4,13 +4,15 @@ import { cn } from "@/lib/utils";
 
 type ContactProps = {
   noMargin?: boolean;
+  className?: string;
 };
 
-export const Contact = ({ noMargin }: ContactProps) => (
+export const Contact = ({ noMargin, className }: ContactProps) => (
   <section
     className={cn(
       "flex container mx-auto md:flex-row flex-col gap-12 items-center mt-12 md:mt-24",
-      noMargin && "mt-0"
+      noMargin && "mt-0",
+      className
     )}
     aria-labelledby="contact-heading"
   >
