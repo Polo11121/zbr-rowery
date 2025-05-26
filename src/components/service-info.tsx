@@ -33,7 +33,9 @@ export const ServiceInfo = ({
       <p className="text-lg text-gray-700 text-center">
         {description}
         <br />
-        <strong>ul. Stefana Czarnieckiego 15A/II, 14-100 Ostróda</strong>
+        <strong>
+          ul. Stefana Czarnieckiego 15A/II, 14-100 Ostróda (PASAŻ)
+        </strong>
         <br />
         <br />
         <strong className="block mt-4 mb-2">Godziny otwarcia:</strong>
@@ -44,12 +46,16 @@ export const ServiceInfo = ({
         <span className="block">Piątek: 09:00–12:00</span>
         <span className="block">Sobota: Zamknięte</span>
         <span className="block">Niedziela: Zamknięte</span>
+        <strong className="block mt-4 mb-2">
+          Inne godziny dostarczenia oraz odbioru roweru możliwe po uzgodnieniu
+          telefonicznym
+        </strong>
       </p>
       <Link
         href="/oferta"
         className="px-6 py-3 bg-zbr text-white rounded-md hover:bg-zbr-dark transition-colors font-medium focus:outline-none focus:ring-2 focus:ring-zbr focus:ring-opacity-50 mt-4"
       >
-        Sprwadź naszą ofertę
+        Sprawdź naszą ofertę
       </Link>
     </div>
     <div className="w-full md:w-[450px]">

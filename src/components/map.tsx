@@ -29,7 +29,7 @@ const Map = () => {
             ZBR ROWERY - Serwis rowerowy
           </span>
           <span className="block text-center">
-            (Czarnieckiego 15A/II, 14-100 Ostróda)
+            (Czarnieckiego 15A/II, 14-100 Ostróda - Pasaż)
           </span>
         </Popup>
       </Marker>
