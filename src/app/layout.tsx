@@ -12,7 +12,7 @@ const getPoppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "ZBR ROWERY - Serwis rowerowy",
+  title: "ZBR ROWERY - Serwis rowerowy w Ostródzie",
   description:
     "Serwis rowerowy ZBR ROWERY w Ostródzie. Naprawa rowerów, serwis, doradztwo, sprzedaż części i akcesoriów rowerowych.",
   keywords: [
