@@ -28,7 +28,7 @@ export const HeaderSocials = () => (
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center gap-2 hover:text-zbr transition-colors duration-300"
-        title="Facebook ZBR Rowery"
+        title="Facebook ZBR ROWERY"
       >
         <FaFacebookF className="size-[20px]" aria-hidden="true" />
         <span className="sr-only">Facebook</span>
@@ -38,7 +38,7 @@ export const HeaderSocials = () => (
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center gap-2 hover:text-zbr transition-colors duration-300"
-        title="Instagram ZBR Rowery"
+        title="Instagram ZBR ROWERY"
       >
         <FaInstagram className="size-[20px]" aria-hidden="true" />
         <span className="sr-only">Instagram</span>
@@ -48,7 +48,7 @@ export const HeaderSocials = () => (
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center gap-2 hover:text-zbr transition-colors duration-300"
-        title="TikTok ZBR Rowery"
+        title="TikTok ZBR ROWERY"
       >
         <FaTiktok className="size-[20px]" aria-hidden="true" />
         <span className="sr-only">TikTok</span>

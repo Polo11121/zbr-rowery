@@ -17,7 +17,7 @@ const HomePage = () => (
       <Hero />
       <ServiceInfo
         title="Z pasji do rowerów"
-        description="Jesteśmy zespołem, który kocha rowery tak samo jak Ty. W ZBR Rowery łączymy doświadczenie z nowoczesnym podejściem, by każdy serwis był szybki, dokładny i bezproblemowy."
+        description="Jesteśmy zespołem, który kocha rowery tak samo jak Ty. W ZBR ROWERY łączymy doświadczenie z nowoczesnym podejściem, by każdy serwis był szybki, dokładny i bezproblemowy."
         imageSrc="/lokum.webp"
         className="flex-col md:flex-col-reverse mt-8 md:px-0 px-4"
       />

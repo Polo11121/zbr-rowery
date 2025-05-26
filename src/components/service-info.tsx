@@ -61,7 +61,7 @@ export const ServiceInfo = ({
     <div className="w-full md:w-[450px]">
       <Image
         src={imageSrc}
-        alt="Zdjęcie siedziby serwisu ZBR Rowery przy ul. Czarnieckiego 15A/II w Ostródzie"
+        alt="Zdjęcie siedziby serwisu ZBR ROWERY przy ul. Czarnieckiego 15A/II w Ostródzie"
         width={450}
         height={675}
         priority

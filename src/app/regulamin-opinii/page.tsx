@@ -2,9 +2,9 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Regulamin opinii | ZBR Rowery",
+  title: "Regulamin opinii | ZBR ROWERY",
   description:
-    "Zasady publikowania opinii na stronie ZBR Rowery. Dowiedz się, jak moderujemy recenzje, jakie są nasze standardy i kiedy opinia może zostać usunięta.",
+    "Zasady publikowania opinii na stronie ZBR ROWERY. Dowiedz się, jak moderujemy recenzje, jakie są nasze standardy i kiedy opinia może zostać usunięta.",
 };
 
 const ReviewPolicyPage = () => (

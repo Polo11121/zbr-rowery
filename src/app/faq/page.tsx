@@ -5,9 +5,9 @@ import { Main } from "@/components/main";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "FAQ – Najczęściej zadawane pytania | ZBR Rowery",
+  title: "FAQ – Najczęściej zadawane pytania | ZBR ROWERY",
   description:
-    "Najczęściej zadawane pytania dotyczące usług ZBR Rowery. Sprawdź odpowiedzi na pytania o serwis, Rowerowe SPA, zabezpieczenie folią PPF, odbiór roweru i więcej.",
+    "Najczęściej zadawane pytania dotyczące usług ZBR ROWERY. Sprawdź odpowiedzi na pytania o serwis, Rowerowe SPA, zabezpieczenie folią PPF, odbiór roweru i więcej.",
 };
 
 const FAQPage = () => (

@@ -2,9 +2,9 @@ import { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Polityka Prywatności | ZBR Rowery",
+  title: "Polityka Prywatności | ZBR ROWERY",
   description:
-    "Polityka prywatności serwisu ZBR Rowery. Dowiedz się, jak chronimy Twoje dane osobowe i jakie masz prawa jako użytkownik strony internetowej zbr-rowery.pl.",
+    "Polityka prywatności serwisu ZBR ROWERY. Dowiedz się, jak chronimy Twoje dane osobowe i jakie masz prawa jako użytkownik strony internetowej zbr-rowery.pl.",
 };
 
 const PrivacyPolicyPage = () => (
@@ -24,7 +24,7 @@ const PrivacyPolicyPage = () => (
         <p>
           <strong>Administrator:</strong> Jędrzej Żebrowski prowadzący
           działalność gospodarczą pod nazwą{" "}
-          <strong>ZBR Rowery – Jędrzej Żebrowski</strong>, z siedzibą przy ul.
+          <strong>ZBR ROWERY – Jędrzej Żebrowski</strong>, z siedzibą przy ul.
           Stefana Czarnieckiego 15A/II, 14-100 Ostróda, NIP:{" "}
           <strong>7412171619</strong>, REGON: <strong>540478500</strong>.
         </p>
@@ -35,7 +35,7 @@ const PrivacyPolicyPage = () => (
             className="text-zbr underline font-bold"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Przejdź do strony głównej ZBR Rowery"
+            aria-label="Przejdź do strony głównej ZBR ROWERY"
           >
             zbr-rowery.pl
           </Link>

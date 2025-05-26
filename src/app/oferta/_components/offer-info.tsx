@@ -19,14 +19,14 @@ export const OfferInfo = () => (
         zabiegi poprawiające osiągi i bezpieczeństwo Twojego roweru. Korzystamy
         z wysokiej klasy narzędzi i sprawdzonych metod, które gwarantują
         trwałość i precyzję wykonania. Oddając nam swój sprzęt, masz pewność, że
-        trafił w dobre ręce – zespół <strong>ZBR Rowery</strong> to doświadczeni
+        trafił w dobre ręce – zespół <strong>ZBR ROWERY</strong> to doświadczeni
         pasjonaci, którzy zadbają o każdy detal.
       </p>
     </div>
     <div className="w-full md:w-[450px]">
       <Image
         src="/offer.webp"
-        alt="Zdjęcie siedziby serwisu ZBR Rowery przy ul. Czarnieckiego 15A/II w Ostródzie"
+        alt="Zdjęcie siedziby serwisu ZBR ROWERY przy ul. Czarnieckiego 15A/II w Ostródzie"
         width={450}
         height={675}
         priority

@@ -8,9 +8,9 @@ import { Heading } from "@/components/heading";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Cennik  – Usługi serwisowe | ZBR Rowery",
+  title: "Cennik  – Usługi serwisowe | ZBR ROWERY",
   description:
-    "Sprawdź cennik usług serwisowych ZBR Rowery na rok 2025. Pakiety serwisowe, myjnia rowerowa, szczegółowe usługi i dodatkowe informacje w jednym miejscu.",
+    "Sprawdź cennik usług serwisowych ZBR ROWERY na rok 2025. Pakiety serwisowe, myjnia rowerowa, szczegółowe usługi i dodatkowe informacje w jednym miejscu.",
 };
 
 const PricingPage = () => (
