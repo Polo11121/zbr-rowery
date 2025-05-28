@@ -25,7 +25,7 @@ export const AdditionalInfoSection = () => (
       </li>
       <li>
         Wszystkie podane ceny mogą ulec zmianie z powodu utrudnień napotkanych
-        przy pracy z rowerem. Przykładem może być skompilowana budowa roweru,
+        przy pracy z rowerem. Przykładem może być skomplikowana budowa roweru,
         zapieczone gwinty i uszkodzone części.
       </li>
       <li>

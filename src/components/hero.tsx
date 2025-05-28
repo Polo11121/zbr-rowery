@@ -10,7 +10,7 @@ export const Hero = () => (
       className="top-8 md:top-20 bottom-auto left-8 md:left-[90px] "
     />
     <h1 className="flex flex-col text-white text-[30px] md:text-[40px] font-bold drop-shadow-lg text-center">
-      <span className="hidden md:block ">SERWIS ROWEROWY ZBR-ROWERY</span>
+      <span className="hidden md:block ">SERWIS ROWEROWY ZBR ROWERY</span>
       <span className="block md:hidden ">ZBR-ROWERY</span>
       <span>Z PASJI DO ROWERÓW</span>
     </h1>
