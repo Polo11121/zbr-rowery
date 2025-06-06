@@ -1,18 +1,18 @@
 import { cn } from "@/lib/utils";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 
 type ServiceInfoProps = {
   title?: string;
   description?: string;
-  imageSrc: string;
+  image: StaticImageData;
   className?: string;
 };
 
 export const ServiceInfo = ({
   title,
   description,
-  imageSrc,
+  image,
   className,
 }: ServiceInfoProps) => (
   <section
@@ -60,12 +60,13 @@ export const ServiceInfo = ({
     </div>
     <div className="w-full md:w-[450px]">
       <Image
-        src={imageSrc}
+        src={image}
         alt="Zdjęcie siedziby serwisu ZBR ROWERY przy ul. Czarnieckiego 15A/II w Ostródzie"
         width={450}
         height={675}
-        priority
         className="md:rounded-lg w-full h-auto object-cover"
+        priority
+        placeholder="blur"
       />
     </div>
   </section>

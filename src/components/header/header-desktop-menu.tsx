@@ -29,6 +29,7 @@ export const HeaderDesktopMenu = () => {
                 )}
               >
                 <Link
+                  prefetch={true}
                   href={path}
                   title={`Przejdź do ${label.toLowerCase()}`}
                   aria-current={isActive ? "page" : undefined}

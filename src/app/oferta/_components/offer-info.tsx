@@ -1,4 +1,5 @@
 import Image from "next/image";
+import offer from "@/../public/offer.webp";
 
 export const OfferInfo = () => (
   <section
@@ -25,12 +26,13 @@ export const OfferInfo = () => (
     </div>
     <div className="w-full md:w-[450px]">
       <Image
-        src="/offer.webp"
+        src={offer}
         alt="Zdjęcie siedziby serwisu ZBR ROWERY przy ul. Czarnieckiego 15A/II w Ostródzie"
         width={450}
         height={675}
         priority
         className="md:rounded-lg w-full h-auto object-cover"
+        placeholder="blur"
       />
     </div>
   </section>

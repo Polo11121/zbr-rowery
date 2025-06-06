@@ -10,9 +10,6 @@ export default {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "hero-pattern": "url('/hero-banner.webp')",
-      },
       colors: {
         zbr: "#2379BD",
         background: "hsl(var(--background))",

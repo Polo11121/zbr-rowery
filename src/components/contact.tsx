@@ -2,18 +2,9 @@ import { ContactSocials } from "@/components/contact-socials";
 import { ContactForm } from "@/components/contact-form";
 import { cn } from "@/lib/utils";
 
-type ContactProps = {
-  noMargin?: boolean;
-  className?: string;
-};
-
-export const Contact = ({ noMargin, className }: ContactProps) => (
+export const Contact = () => (
   <section
-    className={cn(
-      "flex container mx-auto md:flex-row flex-col gap-12 items-center mt-12 md:mt-24",
-      noMargin && "mt-0",
-      className
-    )}
+    className="flex container mx-auto md:flex-row flex-col gap-12 items-center my-12 md:my-24 max-[1599px]:px-4"
     aria-labelledby="contact-heading"
   >
     <article className={cn("flex flex-col gap-[50px] flex-1")}>

@@ -10,6 +10,7 @@ import { headerLinks } from "@/constants/header";
 import { Menu } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import logo from "@/../public/logo-white.webp";
 
 export const HeaderMobileMenu = () => {
   const menuRef = useRef<HTMLDivElement>(null);
@@ -75,15 +76,16 @@ export const HeaderMobileMenu = () => {
             <IoClose />
           </Button>
           <Link
+            prefetch={true}
             href="/"
             className="w-[200px] h-[136px] relative mb-12"
             onClick={toggleMenu}
           >
             <Image
-              src="/logo-white.webp"
+              src={logo}
               fill
-              alt="Logo serwisu rowerowego ZBR-Rowery"
               priority
+              alt="Logo serwisu rowerowego ZBR-Rowery"
             />
           </Link>
           <nav id="mobile-menu" aria-labelledby="mobile-menu-heading">
@@ -97,6 +99,7 @@ export const HeaderMobileMenu = () => {
                 return (
                   <li key={path}>
                     <Link
+                      prefetch={true}
                       href={path}
                       className={cn(
                         "transition-colors duration-300 px-4 py-2 rounded-md",

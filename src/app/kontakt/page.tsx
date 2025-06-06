@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const ContactPage = () => (
   <Main>
     <Heading>Kontakt</Heading>
-    <Contact noMargin />
+    <Contact />
   </Main>
 );
 
